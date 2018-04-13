@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DemoActivity.class);
-                intent.putExtra("tmp", "Hello");
+                intent.putExtra("temp", "Hello");
                 startActivity(intent);
             }
         });
